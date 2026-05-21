@@ -20,8 +20,9 @@ Le code a été structuré de manière modulaire pour faciliter la maintenance e
 
 ## 4. Démonstration
 Voici un aperçu du fonctionnement de l'application :
+<img width="445" height="838" alt="1" src="https://github.com/user-attachments/assets/ec6920a8-23e4-4c89-b71a-8ffc60f4e12b" />
 
-![Capture d'écran de l'application](demo.png)
+
 *(Note : Remplacer "demo.png" par votre capture d'écran réelle après l'exécution sur l'émulateur)*
 
 ## 5. Conclusion
