@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#EFEBE9">
+
+    <TextView
+        android:id="@+id/tv_valeur_actuelle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="0"
+        android:textColor="#3E2723"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_afficher_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_incrementer_score"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#5D4037"
+        android:padding="15dp"
+        android:text="Montrer le message"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_incrementer_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#8D6E63"
+        android:padding="15dp"
+        android:text="Ajouter +1"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
